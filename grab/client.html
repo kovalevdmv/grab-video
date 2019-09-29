@@ -1,0 +1,29 @@
+<style>
+canvas { 
+   width:1280px;
+   height:720px;
+}
+</style>
+<canvas width="1920" height="1080" id="drawingCanvas"></canvas>
+<script>
+function draw(){
+    // Создаем объект изображения
+    var img = new Image();
+    
+    // Загружаем файл изображения
+    img.src = "http://kovalevdv-pc.inside.desnol.ru:8080/printscreen.jpg?" + new Date().getTime();
+
+    // Привязываем функцию к событию onload
+    // Это указывает браузеру, что делать, когда изображение загружено
+    img.onload = function() {
+	    canvas = document.getElementById("drawingCanvas");
+        context = canvas.getContext("2d");
+        context.drawImage(img,0,0);
+    };
+
+    setTimeout(draw, 1000);
+    console.log("update")
+}
+
+setTimeout(draw, 1000);
+</script>

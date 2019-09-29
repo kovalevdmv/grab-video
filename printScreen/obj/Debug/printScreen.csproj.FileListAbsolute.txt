@@ -1,0 +1,6 @@
+C:\Users\kovalevdv\Documents\SharpDevelop Projects\printScreen\printScreen\obj\Debug\printScreen.csprojResolveAssemblyReference.cache
+C:\Users\kovalevdv\Documents\SharpDevelop Projects\printScreen\printScreen\bin\Debug\printScreen.exe.config
+C:\Users\kovalevdv\Documents\SharpDevelop Projects\printScreen\printScreen\bin\Debug\printScreen.exe
+C:\Users\kovalevdv\Documents\SharpDevelop Projects\printScreen\printScreen\bin\Debug\printScreen.pdb
+C:\Users\kovalevdv\Documents\SharpDevelop Projects\printScreen\printScreen\obj\Debug\printScreen.exe
+C:\Users\kovalevdv\Documents\SharpDevelop Projects\printScreen\printScreen\obj\Debug\printScreen.pdb
