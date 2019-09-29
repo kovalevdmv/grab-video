@@ -19,7 +19,7 @@ namespace printScreen
 	{
 		public static void Main(string[] args)
 		{
-			/*
+			 /*
 			int delay=1000;
 			Console.Write("delay in ms (default 1000 ms)?:");
 			try{
